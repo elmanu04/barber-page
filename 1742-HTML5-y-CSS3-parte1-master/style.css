@@ -1,0 +1,229 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200
+}
+header{
+    background: #BBBBBB;
+    padding: 20px 0 0 ;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute ;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color:green;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #000099;
+    text-decoration: underline;
+
+}
+.productos{
+    padding: 50px;
+    width: 940px;
+    margin: 0 auto;
+}
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 5px double #226622;
+  border-radius: 18px;
+}
+.productos li:hover h2{
+    font-size: 35px;
+}
+.productos li:hover{
+    border-color: #000099;
+}
+
+.productos li:active{
+    border-color: chocolate;
+}
+.productos h2{
+    font-size: 32px;
+    font-weight: bolder
+}
+.productodescripcion{
+    font-size: 20px;
+
+}
+.productoPrecio{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 12px;
+}
+footer{
+    padding: 40px;
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+}
+.copyright{
+    color: #ffffff;
+    font-size: 10px;
+    margin: 20;
+}
+form{
+    margin:40px 0;
+}
+
+form label, form legend{
+    font-size: 20px;
+    display: block;
+    margin: 0 0 12px;
+}
+.padron {
+    display: block;
+    margin: 0 0 20px ;
+    padding: 10px 30px ;
+    width: 50%;
+}
+.checkbox{
+    margin: 10px 10px ;
+}
+.enviar{
+    width: 40%;
+    padding: 10px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.enviar:hover{
+    background-color: orangered;
+    transition: 0.5s all;
+    transform: scale(1.17);
+    
+}
+table{
+    margin: 40px 20px;
+}
+thead{
+    background-color: #444444;
+    color: white;
+    font-weight: bold
+}
+td, th{
+    border:2px solid #000000;
+    padding:15px 10px ;
+}
+
+
+/*CSS para pagina home*/
+
+.banner{
+    width: 100%;
+}
+.principal{
+    background-color: #ffffff;
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto auto;
+}
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em 0;
+    clear: left;
+}
+.titulo-principal:first-letter{
+font-weight: bolder;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+.principal strong{
+    font-weight: bolder;
+}
+.principal em{
+    font-style: italic;
+}
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0 ;
+}
+.mapa{
+    padding: 3em 0;
+    background:linear-gradient(#ffffff, #888888)
+}
+.mapa p{
+    margin: 0 0 2em 0;
+    text-align: center;
+}
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+}
+.diferenciador{
+    background-color: #888888;
+    padding: 3em 0;
+}
+.contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto ;
+}
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.items{
+    line-height: 1.5;
+}
+.items:before{
+    content: "★";
+}
+.items:first-child{
+    font-weight: 300;
+}
+.imagen-diferenciales{
+    width: 60%;
+    box-shadow: 10px 10px 15px 8px black;
+}
+.imagen-diferenciales:hover{
+    opacity: 30%;
+    transition: 0.3s;
+}
+.video{
+    width: 560;
+    margin:1em auto;
+    padding-left: 26%;
+    display: inline-block;
+}
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja,.principal, .mapa-contenido,.contenido-diferenciales, .video{
+        width: auto;
+    }
+
+    
+}

@@ -1,0 +1,40 @@
+
+#igmagen{
+    width: 100%;
+}
+.bloque1 {
+    background: #999999;
+    padding: 20px;
+}
+.encabezado{
+    padding-left: 4%;
+}
+.titulos{
+    text-align: center;
+}
+p{
+    text-align:center;
+}
+
+em strong{
+    color: green;
+}
+#mision{
+    font-size: 20px;
+}
+.items{
+    font-style: italic;
+}
+.diferenciador{
+    padding: 30px;
+    background: #ffffff;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 20%;
+}
+.imagenDiferenciales{
+    width: 50%;
+}
